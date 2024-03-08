@@ -74,7 +74,7 @@ const LandingPage = () => (
     />
 
     <Video
-      src='https://www.youtube.com/watch?v=-rgj9puV9Vw&ab_channel=Uni2023'
+      src='https://www.youtube.com/embed/-rgj9puV9Vw?si=i1cnteMlG_ciLF2A'
       controls={false}
       fullWidth={false}
     />
