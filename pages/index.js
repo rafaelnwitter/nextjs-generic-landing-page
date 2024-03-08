@@ -59,7 +59,7 @@ const LandingPage = () => (
 
 
     <Image
-      src='https://integrae.com.br/wp-content/uploads/2018/09/WhatsApp-Image-2018-09-21-at-10.44.10.jpeg&auto=format&fit=crop&w=1280&q=80'
+      src='https://integrae.com.br/wp-content/uploads/2018/09/WhatsApp-Image-2018-09-21-at-10.44.10.jpeg'
       fullWidth={false}
     />
 
