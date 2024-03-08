@@ -57,13 +57,13 @@ const LandingPage = () => (
     />
 
     <Video
-      src='https://www.youtube.com/embed/-8-ZyyQy3hU'
+      src='https://www.youtube-nocookie.com/embed/-rgj9puV9Vw?si=yHBGGZ1p8n6QSVdJ'
       controls={false}
       fullWidth={false}
     />
 
     <Features
-      headline='What our customers are saying'
+      headline='O que estao falando do desenvolvedor?'
       features={config.appTestimonials}
     />
 
