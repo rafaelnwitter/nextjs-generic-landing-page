@@ -24,7 +24,7 @@ const LandingPage = () => (
     <PageHead />
 
     <Header>
-      <LinkOptional href='#pricing'>Pricing</LinkOptional>
+      <LinkOptional href='#pricing'>Produtos</LinkOptional>
       <LinkOptional href='#testimonials'>Testimonials</LinkOptional>
     </Header>
 

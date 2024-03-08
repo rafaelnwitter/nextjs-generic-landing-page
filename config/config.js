@@ -15,8 +15,8 @@ const completeConfig = {
     appDescription: 'Um exemplo simples de um site de medicina',
     appFeatures: [
       {
-        name: 'Great starting point',
-        description: 'Great starting point for a landing page or simple website.',
+        name: 'Tornar-se um socio',
+        description: 'Venha fazer parte',
         imageSrc: 'https://images.unsplash.com/photo-1459755486867-b55449bb39ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGNvZmZlZXxlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60',
         link: 'https://github.com/tomsoderlund/nextjs-generic-landing-page',
         target: '_blank'

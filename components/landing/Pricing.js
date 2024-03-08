@@ -2,7 +2,7 @@ import React from 'react'
 
 import Block from './Block'
 
-const Pricing = ({ products, onSelect, title = 'Pricing', inProgress, ...otherProps }) => {
+const Pricing = ({ products, onSelect, title = 'Preços', inProgress, ...otherProps }) => {
   return (
     <Block padding='0 1em 2em' {...otherProps}>
       <h2>{title}</h2>
