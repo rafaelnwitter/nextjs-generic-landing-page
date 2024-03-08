@@ -32,29 +32,31 @@ const completeConfig = {
     ],
     appProducts: [
       {
-        reference: 'basic',
-        name: 'Basic package',
+        reference: 'Plano I',
+        name: 'Membro basico',
         features: [
-          'Complete source code',
-          'Template ready to use'
+          'Pode comprar ingressos para eventos',
+          'Pode participar de eventos',
+          'Pode participar de sorteios'
         ],
         action: {
-          label: 'Free download',
-          href: 'https://github.com/tomsoderlund/nextjs-generic-landing-page',
+          label: 'Torna-se membro basico',
+          href: 'https://wa.me//5548996497509?text=Tenho%20interesse%20em%20em%20fechar%20servico',
           target: '_blank',
           rel: 'noopener noreferrer'
         }
       },
       {
-        reference: 'complete',
-        name: 'Complete package',
+        reference: 'Plano Full',
+        name: 'Membro elite',
         features: [
-          'Support a developer',
-          'Get gratitude'
+          'Pode comprar ingressos para eventos',
+          'Pode participar de eventos',
+          'Recebe descontos exclusivos para eventos e estabelecimentos'
         ],
         action: {
-          label: 'Donate $9',
-          href: 'https://ko-fi.com/tomsoderlund',
+          label: 'Tornar-se mebro full',
+          href: 'https://wa.me//5548996497509?text=Tenho%20interesse%20em%20em%20fechar%20servico',
           target: '_blank',
           rel: 'noopener noreferrer'
         }
@@ -62,20 +64,20 @@ const completeConfig = {
     ],
     appTestimonials: [
       {
-        name: 'Ida Lowry',
-        description: '“I loved it!”',
+        name: 'Augusto',
+        description: '“Bacana demais, vale a pena contrata-lo”',
         imageSrc: 'https://screens.tomorroworld.com/image?width=400&height=240&dpr=1&time=networkidle0&url=https://m.media-amazon.com/images/M/MV5BZTc0ZjU5ZWEtYzVhZC00N2QwLWE4OWQtYzExMGZiYWJiNDAwXkEyXkFqcGdeQXVyOTc5MDI5NjE@._V1_.jpg'
       },
       {
-        name: 'Sam Lowry',
-        description: '“This was amazing!”',
+        name: 'Alfredo',
+        description: '“Sensacional”',
         imageSrc: 'https://screens.tomorroworld.com/image?width=400&height=240&dpr=1&time=networkidle0&url=https://m.media-amazon.com/images/M/MV5BMjU5ZWFjZWMtNjRjZi00ZGFiLWI4NmUtNmRiMDU1MmEwZDMwXkEyXkFqcGdeQXVyOTc5MDI5NjE@._V1_.jpg'
       }
     ],
     locale: 'en_US',
     googleAnalyticsId: 'UA-XXXXXXX-X',
     googleSiteVerification: false,
-    leadService: `https://login-as-a-service.vercel.app/api/${appSlug}/lead`
+    leadService: `https://login-as-a-service.vercel.app/api/${"pwa-for-med"}/lead`
   },
 
   development: {
