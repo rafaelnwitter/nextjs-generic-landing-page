@@ -17,19 +17,17 @@ const completeConfig = {
       {
         name: 'Tornar-se um socio',
         description: 'Venha fazer parte',
-        imageSrc: 'https://images.unsplash.com/photo-1459755486867-b55449bb39ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGNvZmZlZXxlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60',
-        link: 'https://github.com/tomsoderlund/nextjs-generic-landing-page',
-        target: '_blank'
+        imageSrc: 'https://integrae.com.br/wp-content/uploads/2021/03/doacao-medula-ossea.jpg',
       },
       {
-        name: 'Export HTML',
-        description: 'Use `yarn export` to export pure HTML pages.',
-        imageSrc: 'https://images.unsplash.com/photo-1497935586351-b67a49e012bf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y29mZmVlfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60'
+        name: 'Beneficios',
+        description: 'Veja os beneficios de se tornar um membro.',
+        imageSrc: 'https://integrae.com.br/wp-content/uploads/2021/04/estilo-isometrico-de-marketing-movel_23-2148896785.jpg'
       },
       {
-        name: 'Easy to customize',
-        description: 'Change content and CSS styles easily.',
-        imageSrc: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y29mZmVlfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60'
+        name: 'Eventos',
+        description: 'Veja os eventos mais proximos programados pela Staff e garanta seu ingresso.',
+        imageSrc: 'https://integrae.com.br/wp-content/uploads/2021/09/2018-12-05-Atletica-Espartanoz-JUNFRI-2018-Foto-JUNFRI-e-Divulgacao-25-1.jpeg'
       }
     ],
     appProducts: [
