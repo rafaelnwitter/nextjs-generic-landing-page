@@ -47,10 +47,9 @@ const LandingPage = () => (
           linkedin: true
         }}
         follow={{
-          web: 'https://www.tomorroworld.com/',
-          twitter: 'TomorroworldAB',
-          instagram: 'tomsoderlund',
-          linkedin: 'company/tomorroworld'
+          web: 'https://www.instagram.com/r_witt',
+          instagram: 'r_witt',
+          linkedin: 'rafaelnwitt'
         }}
         onShare={({ message }) => window.alert(message)}
       />
@@ -58,9 +57,6 @@ const LandingPage = () => (
 
     <CustomSignupBlock />
 
-    <Block padding='2em 1em'>
-      Get the template source code from <a className='button' href='https://github.com/tomsoderlund/nextjs-generic-landing-page' target='_blank' rel='noopener noreferrer'>GitHub</a>
-    </Block>
 
     <Image
       src='https://images.unsplash.com/photo-1559056199-641a0ac8b55e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1280&q=80'
@@ -92,7 +88,7 @@ const LandingPage = () => (
     <CustomSignupBlock />
 
     <Footer>
-      &copy; Company, Inc. | <a href='https://www.tomorroworld.com/' target='_blank' rel='noopener noreferrer'>Template by Tomorroworld</a>
+      &copy; Company, Inc. | <a href='https://www.instagram.com/r_witt' target='_blank' rel='noopener noreferrer'>Made by @rafaelnwitter</a>
     </Footer>
   </main>
 )
