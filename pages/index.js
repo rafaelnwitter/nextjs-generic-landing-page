@@ -25,7 +25,7 @@ const LandingPage = () => (
 
     <Header>
       <LinkOptional href='#pricing'>Produtos</LinkOptional>
-      <LinkOptional href='#testimonials'>Testimonials</LinkOptional>
+      <LinkOptional href='#testimonials'>O que estao falando?</LinkOptional>
     </Header>
 
     <Headline
@@ -74,13 +74,13 @@ const LandingPage = () => (
     />
 
     <Video
-      src='https://www.youtube.com/embed/-8-ZyyQy3hU'
+      src='https://www.youtube.com/watch?v=-rgj9puV9Vw&ab_channel=Uni2023'
       controls={false}
       fullWidth={false}
     />
 
     <Features
-      headline='What our customers are saying'
+      headline='O que estao falando do desenvolvedor?'
       features={config.appTestimonials}
       id='testimonials'
     />
@@ -97,7 +97,7 @@ export default LandingPage
 
 const CustomSignupBlock = () => (
   <SignupBlock
-    thankyouText='Thank you for signing up!'
+    thankyouText='Obrigado'
     className='darker'
     leadService={config.leadService}
   />

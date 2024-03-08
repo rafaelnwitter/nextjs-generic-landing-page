@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import { googleEvent } from '../page/GoogleAnalytics'
 
 // leadService: `https://login-as-a-service.vercel.app/api/${appSlug}/lead`
-const SignupForm = ({ leadService, googleEventName = 'sign_up', buttonText = 'Sign up', thankyouText = 'Thank you!' }) => {
+const SignupForm = ({ leadService, googleEventName = 'sign_up', buttonText = 'Registrar', thankyouText = 'Obrigado!' }) => {
   const [personInfo, setPersonInfo] = useState({ email: '' })
   const setPersonInfoField = (field, value) => setPersonInfo({ ...personInfo, [field]: value })
 
@@ -49,7 +49,7 @@ const SignupForm = ({ leadService, googleEventName = 'sign_up', buttonText = 'Si
             type='email'
             value={personInfo.email}
             required
-            placeholder='Your email'
+            placeholder='Seu email'
             onChange={event => setPersonInfoField('email', event.target.value)}
             disabled={inProgress}
           />
