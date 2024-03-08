@@ -9,10 +9,10 @@ const completeConfig = {
   default: {
     serverPort,
     appSlug,
-    appUrl: `https://${appSlug}.vercel.app/`,
+    appUrl: `https://${"pwa-for-med"}.vercel.app/`,
     appName: manifest.name,
-    appTagline: 'A soft landing for your next project',
-    appDescription: 'A generic landing page template, built in Next.js (React) with static HTML export.',
+    appTagline: 'Medicina',
+    appDescription: 'Um exemplo simples de um site de medicina',
     appFeatures: [
       {
         name: 'Great starting point',
